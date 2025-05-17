@@ -28,5 +28,44 @@ Now that the instance is up and running your going to need to ssh into the virtu
 * Then open a linux command line or a Powrshell command line on your device, and cd into where the key was placed, and enter this:
 ```
  ssh -i "yourkeyname.pem" ubuntu@ec2-12-123-1-35.ap-southwest-5.compute.amazonaws.com
+```
+After running this you will get a permission denied telling the user that they cant ssh into the machine so run the following command to give the user right permissions
+
+```
+chmod 400 "yourkey.pem"
+```
+
+# Install Apache #
+
+Once you have ssh'ed into your mahcine on the command line you will need to refresh/update the package making sure its up to date you can do this by doing a:
+
+```
+sudo apt update
+```
+To install the apache webserver
+```
+sudo apt install apache2
+```
+
+# Edting index.html and webserver testing
+Once the apache webserver is installed we will now need to gain access into our index.html we can do this by running:
+```
+sudo nano /var/www/html/index.html
+```
+you will most likely not be able to edit this html as you do not have the right permissions so you will to give it the right ones. So inside the virutal machine cd and write. 
+
+```
+cd /var/www/html
+```
+Then check if the index.html file is in there by doing an ls.
+```
+ls
+```
+Then finally try to sudo into the index.html and try to access it now by doing this command
+```
+sudo nano /var/www/html/index.html
+```
+
+
 
 

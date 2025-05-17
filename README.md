@@ -1,7 +1,7 @@
-```
+
 # Travel-Blog-Tutorial
 Blog
-```
+
 
 Hello, this is a tutorial on how to build a Travel blog using Iaas runs on top of apache-webserver and access it via domain name on the web. This is a step by step process starting by gaining access to an AWS account, running linux commands and building the server and finally getting acess to the website via its domain name.
 
@@ -26,7 +26,7 @@ Now that the instance is up and running your going to need to ssh into the virtu
 * Downlaod the pem key and place into a folder on your device
 
 * Then open a linux command line or a Powrshell command line on your device, and cd into where the key was placed, and enter this:
-
+```
  ssh -i "yourkeyname.pem" ubuntu@ec2-12-123-1-35.ap-southwest-5.compute.amazonaws.com
 
 

@@ -20,4 +20,12 @@ Once that is done it will ask you for the purposes of using AWS select the schoo
 * Configure storage - leave with default settings
 
 ## Console into the Virtual Machine
-Now that the instance is up and running your going to need to ssh into the virtual machine via a console, in this case i am using ubuntu but this will work on powershell as well. What your going to do is click on the instance running, select the 'connect' tab above it and press the ssh client section. From there you will see ssh code: 
+Now that the instance is up and running your going to need to ssh into the virtual machine via a console, in this case i am using ubuntu but this will work on powershell as well. What your going to do is click on the instance running, select the 'connect' tab above it and press the ssh client section. 
+
+* Downlaod the pem key and place into a folder on your device
+
+* Then open a linux command line or a Powrshell command line on your device, and cd into where the key was placed, and enter this:
+
+ ssh -i "yourkeyname.pem" ubuntu@ec2-12-123-1-35.ap-southwest-5.compute.amazonaws.com
+
+

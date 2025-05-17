@@ -1,6 +1,6 @@
 
-# Travel-Blog-Tutorial
-Blog
+# Wondering Wayfarer Travel-Blog-Tutorial
+
 
 
 Hello, this is a tutorial on how to build a Travel blog using Iaas runs on top of apache-webserver and access it via domain name on the web. This is a step by step process starting by gaining access to an AWS account, running linux commands and building the server and finally getting acess to the website via its domain name.
@@ -47,7 +47,7 @@ To install the apache webserver
 sudo apt install apache2
 ```
 
-# Edting index.html and webserver testing
+# Index.html permissions
 Once the apache webserver is installed we will now need to gain access into our index.html we can do this by running:
 ```
 sudo nano /var/www/html/index.html
@@ -65,7 +65,18 @@ Then finally try to sudo into the index.html and try to access it now by doing t
 ```
 sudo nano /var/www/html/index.html
 ```
+#Test webserver
+Now that we have gained the right permissions and have access to the html, lets try testing the conenctivity go the amazon EC2 instance and copy the public ip-address. Before pasting it in place it with a http before the ip-address and paste into the webrowser. Once that is done you webserver should pop up on the browser.
 
+
+#Editing Webpage
+
+
+
+
+
+
+# Linking the Domain name 
 
 
 

@@ -93,5 +93,15 @@ Once thats done you want to also add a heading for what your travel blog is abou
 
 # Linking the Domain name 
 
+We now can access our webpage via the ip-address of the vm, but we now would like to link our virtual machine in the cloud with DNS so follow these steps below.
+
+* Go AWS ec2 dashboard and look for route 53 which is used to register domain names
+* Then go to were it says register domains and select a name that is easy and simple characters from A-Z 0-9.
+* Once a name is selected proceed to checkout
+* Finally enter your details in the billing page, once that is complete wait until domain name is registered
+* After domain name is registered go to the hosted zones tab in route 53 and click create A records make sure the TTL 300 and the domain name is pointing to your ip-address.
+
+# SSH into the Virtual machine via the domain name
+
 
 

@@ -74,6 +74,17 @@ Once the webpage is up we know that the ip-address for the server is functioning
 
 ![image](https://github.com/user-attachments/assets/71cb256b-de8b-4f37-896b-e64408c74854)
 
+Once thats done you want to also add a heading for what your travel blog is about and based on by changing the <h1> header to "Mongolia". Then after thats done you need to also change the colour and add a description about your blog. This can be done by altering the <body style= to "background-colour: lightblue">. And for the description go to were it says <div class= put in "description"> and write the information in the code block. It should look like this down below.
+
+![image](https://github.com/user-attachments/assets/2cbda9bb-fe06-4493-bf36-9687cd834cf6)
+
+
+
+
+
+
+
+
 
 
 

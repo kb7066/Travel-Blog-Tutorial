@@ -65,11 +65,11 @@ Then finally try to sudo into the index.html and try to access it now by doing t
 ```
 sudo nano /var/www/html/index.html
 ```
-#Test webserver
+# Test webserver
 Now that we have gained the right permissions and have access to the html, lets try testing the conenctivity go the amazon EC2 instance and copy the public ip-address. Before pasting it in place it with a http before the ip-address and paste into the webrowser. Once that is done you webserver should pop up on the browser.
 
 
-#Editing Webpage
+# Editing Webpage
 
 
 

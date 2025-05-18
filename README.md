@@ -70,6 +70,10 @@ Now that we have gained the right permissions and have access to the html, lets 
 
 
 # Editing Webpage
+Once the webpage is up we know that the ip-address for the server is functioning and correct, it is now time to edit our travel-blog webpage. So first i would like to use the sudo command above in the previous step and sudo into our index.html file. Once your in go to index.html file were it says <title> place in the title of your webpage in this case lets call it "Wondering Wayfarer's" and shoud look like this down below
+
+![image](https://github.com/user-attachments/assets/71cb256b-de8b-4f37-896b-e64408c74854)
+
 
 
 

@@ -108,3 +108,19 @@ Once you have recieved your domain name go to the CLI on ubuntu and type in this
 ssh -i pemkey.pem ubuntu@[yourdomain-name-goes-here.com]
 ```
 If you successfully ssh'ed into your machine via the domain try typing https://your-domain-name.com on the URL page and see if it loads your website
+
+
+# Obtaining a digital certificate via certbot
+Since we got our webpage accessbile via our domain we are going to need a digital certificate for HTTPS. To do that go this page. 
+
+```
+https://certbot.eff.org/
+```
+And select my website is running as 'Apache' on 'Linux snap', once that is done go to your ubuntu command line and just follow the steps to the end. Now try by going to your webiste via its domain name and you should see in the URL tab a lock saying 'You are securely connected to this site Verified by: Lets encrypt'. After you have done that you should have your machien accessible via domain name and webpage running.
+
+
+![image](https://github.com/user-attachments/assets/fd380adc-1495-48c5-864d-6b12cfc7fcc0)
+
+
+
+

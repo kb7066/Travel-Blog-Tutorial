@@ -103,5 +103,8 @@ We now can access our webpage via the ip-address of the vm, but we now would lik
 
 # SSH into the Virtual machine via the domain name
 
-
-
+Once you have recieved your domain name go to the CLI on ubuntu and type in this command to ssh into your machine.
+```
+ssh -i pemkey.pem ubuntu@[yourdomain-name-goes-here.com]
+```
+If you successfully ssh'ed into your machine via the domain try typing https://your-domain-name.com on the URL page and see if it loads your website

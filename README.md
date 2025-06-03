@@ -1,8 +1,10 @@
-# Student ID: 35325158
-# Domain name:http:// wayfarersonline.com
-# IP Address Public: 3.
+
+
+
 
 # Wondering Wayfarer Travel-Blog-Tutorial
+Student ID: 35325158
+Domain name: https://khalid-ab.com/
 
 
 

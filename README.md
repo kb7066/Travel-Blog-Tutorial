@@ -9,6 +9,8 @@ Name: Khalid Abdi
 
 Domain name: https://khalid-ab.com/
 
+VIDEO https://drive.google.com/file/d/1Z53IJB94mY76dFx_oWLct0DsLPocLTEn/view?usp=share_link
+
 
 
 Hello, this is a tutorial on how to build a Travel blog using Iaas runs on top of apache-webserver and access it via domain name on the web. This is a step by step process starting by gaining access to an AWS account, running linux commands and building the server and finally getting acess to the website via its domain name.
